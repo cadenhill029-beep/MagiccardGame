@@ -11,5 +11,10 @@ public class ThaMain {
 		CadenDeck.addCard(island);
 		CadenDeck.cardList();
 	}
+	
+	
+	public static void startGame() {
+		
+	}
 
 }
