@@ -1,0 +1,33 @@
+# Java compiled files
+*.class
+
+# Logs
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ / IDEs
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
