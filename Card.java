@@ -1,4 +1,4 @@
-package MagiccardGame;
+
 
 import java.util.HashMap;
 
