@@ -1,3 +1,5 @@
+package MagiccardGame;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
@@ -19,7 +21,7 @@ public class Deck {
 	}
 //Mr.Passini
 	public void ShuffleDeck() {
-		
+		Collections.shuffle(cards);
 	}
 	
 	public void cardList() {

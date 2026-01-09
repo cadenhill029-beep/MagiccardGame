@@ -1,3 +1,5 @@
+package MagiccardGame;
+
 import java.util.HashMap;
 
 
@@ -59,9 +61,11 @@ public class Card {
 	 * Card Text: ....
 	 */
 	public String toString() {
-		return "Magic Card";
+	    return "************ Card Info ************\n"
+	         + "Name: " + Cards.get("name") + "\n"
+	         + "Type: " + Cards.get("type") + "\n"
+	         + "Color: " + Cards.get("color") + "\n"
+	         + "Card Text: " + Cards.get("Text") + "\n"
+	         + "***********************************";
 	}
-
-	
-
 }
