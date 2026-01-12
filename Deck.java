@@ -13,10 +13,10 @@ public class Deck {
 //Sterling/Jonas: complete add and delete method which will be able to both add magic cards
 //and delete them aswell.
 	public void addCard(Card x) {
-		
+		cards.add(x);
 	}
-	public static void deleteCard(Card x) {
-
+	public void deleteCard(Card x) {
+		cards.remove(x);
 
 	}
 //Mr.Passini
